@@ -24,14 +24,14 @@
             <h3 class="footertitle">Information</h3>
              <ul>
                  <li><a href="about.php">About</a></li>
-                 <li><a href="import.php">Import</a></li>
-                 <li><a href="export.php">Export</a></li>
+                 <!-- <li><a href="import.php">Import</a></li>
+                 <li><a href="export.php">Export</a></li> -->
                 
              </ul>
              <ul>
                  
-                 <li><a href="event.php">Recent Event</a></li>
-                 <li><a href="gallery.php">Gallery</a></li>
+                 <!-- <li><a href="event.php">Recent Event</a></li> -->
+                 <!-- <li><a href="gallery.php">Gallery</a></li> -->
                   <li><a href="contact.php">Contact Us</a></li>
              </ul>
            </div>
