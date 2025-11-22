@@ -3,6 +3,15 @@ include 'Layout/header.php';
 ?>
 
 
+<style>
+.pro-box img {
+  width: 100%;
+  height: 200px;        /* Set equal height */
+  object-fit: cover;    /* Crop to fit without distortion */
+}
+
+</style>
+
 
 <!--Main Slider-->
 <section class="main-slider">
@@ -201,108 +210,138 @@ include 'Layout/header.php';
 
       <div class="col-md-3 col-sm-6">
         <div class="pro-box">
-          <img src="img/ser-1.jpg">
+          <img src="img/Dulal_Chandro_Vor_Plam_Candy.jpg">
+          <div class="pro-text">
+            <h2>Dulal Chandro Vor Plam Candy</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <div class="pro-box">
+          <img src="img/Everest_Hingraj.jpg">
+          <div class="pro-text">
+            <h2>Everest Hingraj</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <div class="pro-box">
+          <img src="img/Everest_Sambar_Masala.jpg">
+          <div class="pro-text">
+            <h2>Everest Sambar Masala</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <div class="pro-box">
+          <img src="img/Everest_Kashmirilal_Masala.jpg">
+          <div class="pro-text">
+            <h2>Everest Kashmirilal Masala</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <div class="pro-box">
+          <img src="img/Fortune_Soya_Chunk.jpg">
+          <div class="pro-text">
+            <h2>Fortune Soya Chunk</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <div class="pro-box">
+          <img src="img/Jio_Sama_Dana.jpg">
+          <div class="pro-text">
+            <h2>Jio Sama Dana</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <div class="pro-box">
+          <img src="img/karnel_1.PNG">
+          <div class="pro-text">
+            <h2>Karnel 1.PNG</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <div class="pro-box">
+          <img src="img/Karnel_Oil_646_Gm.PNG">
+          <div class="pro-text">
+            <h2>Karnel Oil 646 Gm</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <div class="pro-box">
+          <img src="img/Nutrela_Soya_Chunk.jpg">
+          <div class="pro-text">
+            <h2>Nutrela Soya Chunk</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <div class="pro-box">
+          <img src="img/Paket_Sabu.jpg">
+          <div class="pro-text">
+            <h2>Paket Sabu</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <div class="pro-box">
+          <img src="img/Premi_oil_1_Ltr.PNG">
+          <div class="pro-text">
+            <h2>Premi oil 1 Ltr</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <div class="pro-box">
+          <img src="img/Premi_Oil_50_Ltr.PNG">
+          <div class="pro-text">
+            <h2>Premi Oil 50 Ltr</h2>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="col-md-3 col-sm-6">
+        <div class="pro-box">
+          <img src="img/Sabu_Dana.jpg">
+          <div class="pro-text">
+            <h2>Sabu Dana</h2>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="col-md-3 col-sm-6">
+        <div class="pro-box">
+          <img src="img/Sama_Dana.jpg">
           <div class="pro-text">
             <h2>Sama Dana</h2>
           </div>
         </div>
       </div>
 
+      
       <div class="col-md-3 col-sm-6">
         <div class="pro-box">
-          <img src="img/ser-2.jpg">
+          <img src="img/tea.PNG">
           <div class="pro-text">
-            <h2>Premi Sunflower Oil</h2>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3 col-sm-6">
-        <div class="pro-box">
-          <img src="img/ser-3.jpg">
-          <div class="pro-text">
-            <h2>Fortun Soya Chunk</h2>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3 col-sm-6">
-        <div class="pro-box">
-          <img src="img/ser-4.jpg">
-          <div class="pro-text">
-            <h2>Hingraj Powder</h2>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3 col-sm-6">
-        <div class="pro-box">
-          <img src="img/ser-5.jpg">
-          <div class="pro-text">
-            <h2>Sambar Masala</h2>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3 col-sm-6">
-        <div class="pro-box">
-          <img src="img/ser-6.jpg">
-          <div class="pro-text">
-            <h2>Kashmirilal Masala</h2>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3 col-sm-6">
-        <div class="pro-box">
-          <img src="img/ser-7.jpg">
-          <div class="pro-text">
-            <h2>Basmati Powder</h2>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3 col-sm-6">
-        <div class="pro-box">
-          <img src="img/ser-8.jpg">
-          <div class="pro-text">
-            <h2>Sagu Dana</h2>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3 col-sm-6">
-        <div class="pro-box">
-          <img src="img/ser-1.jpg">
-          <div class="pro-text">
-            <h2>Nutella Soya Chunk</h2>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3 col-sm-6">
-        <div class="pro-box">
-          <img src="img/ser-2.jpg">
-          <div class="pro-text">
-            <h2>Karnel Sunflower Oil</h2>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3 col-sm-6">
-        <div class="pro-box">
-          <img src="img/ser-3.jpg">
-          <div class="pro-text">
-            <h2>Plam Candy</h2>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3 col-sm-6">
-        <div class="pro-box">
-          <img src="img/ser-4.jpg">
-          <div class="pro-text">
-            <h2>Instant Masala</h2>
+            <h2>Tea</h2>
           </div>
         </div>
       </div>
