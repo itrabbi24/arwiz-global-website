@@ -1,163 +1,86 @@
-
-<!--footer-->
-<footer id="contact">
- <div class="footer-info">
-   <div class="container">
-       <div class="row">
-         <div class="col-md-4">
-    <div class="footer-fix">
-        <div class="logo">
-            <a href="index.php">
-                <h3>AR WIZ GLOBAL</h3>
-            </a>
-        </div>
-        <p>
-            AR WIZ GLOBAL is a trusted name in international trade, specializing in the import and export of quality products across multiple industries. 
-            We connect global markets by ensuring timely delivery, competitive pricing, and exceptional customer service for our clients worldwide.
-        </p>
-    </div>
-</div>
-
-        
-         <div class="col-md-4">
-           <div class="footer-fix fotr-ser">
-            <h3 class="footertitle">Information</h3>
-             <ul>
-                 <li><a href="about.php">About</a></li>
-                 <!-- <li><a href="import.php">Import</a></li>
-                 <li><a href="export.php">Export</a></li> -->
-                
-             </ul>
-             <ul>
-                 
-                 <!-- <li><a href="event.php">Recent Event</a></li> -->
-                 <!-- <li><a href="gallery.php">Gallery</a></li> -->
-                  <li><a href="contact.php">Contact Us</a></li>
-             </ul>
-           </div>
-         </div>
-          <div class="col-md-4">
-           <div class="footer-fix">
-            <h3 class="footertitle">Address Info</h3>
-             <ul>
-                <li>
-                 <i class="fa fa-map-marker"></i>
-                 <strong>address</strong> 
-                 16-A-B, Bismillah Tower, Jurain Bazar, Shyampur, Dhaka-1204.
-                </li>
-                <li>
-                 <i class="fa fa-phone"></i>
-                 <strong>phone</strong>
-                 +88 01902-994240, +88 01771-621905
-                </li>
-                <li>
-                 <i class="fa fa-envelope"></i>
-                 <strong>email</strong>arwiz.global@gmail.com
-                </li>
-             </ul>
-           </div>
-         </div>
-     </div>
-   </div>
- </div>
-<div class="footer-copyright" style="text-align: center;">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="copyright">
-                    <p>
-                        Copyright © 2025 All Rights Reserved | 
-                        Developed by <a style="color: #fff;" href="https://rotexit.com" target="_blank" rel="noopener noreferrer">ROTEXIT</a>
+    <footer class="fat-footer section reveal">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="./img/logo.png" alt="ARWIZ Global" style="height: 35px; margin-bottom: 2rem;">
+                    <p style="color: var(--clr-text-muted); font-size: 0.95rem; margin-bottom: 2rem;">
+                        <span class="lang-en">ARWIZ Global provides signature agricultural quality from the farm directly to your neighborhood. Reliable retail and wholesale distribution.</span>
+                        <span class="lang-bn">আরউইজ গ্লোবাল সরাসরি খামার থেকে আপনার প্রতিবেশে সিগনেচার কৃষি পণ্য পৌঁছে দেয়। নির্ভরযোগ্য রিটেইল এবং পাইকারি ডিস্ট্রিবিউশন।</span>
+                    </p>
+                    <div style="display: flex; gap: 1rem;">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>
+                        <span class="lang-en">Quick Links</span>
+                        <span class="lang-bn">দ্রুত লিংক</span>
+                    </h4>
+                    <ul>
+                        <li><a href="index"><span class="lang-en">Home</span><span class="lang-bn">মূলপাতা</span></a></li>
+                        <li><a href="index#catalog"><span class="lang-en">Catalog</span><span class="lang-bn">পণ্য তালিকা</span></a></li>
+                        <li><a href="about"><span class="lang-en">Our Story</span><span class="lang-bn">আমাদের গল্প</span></a></li>
+                        <li><a href="contact"><span class="lang-en">Contact</span><span class="lang-bn">যোগাযোগ</span></a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>
+                        <span class="lang-en">Partnerships</span>
+                        <span class="lang-bn">পার্টনারশিপ</span>
+                    </h4>
+                    <ul>
+                        <li><a href="contact"><span class="lang-en">Bulk Inquiry</span><span class="lang-bn">পাইকারি অনুসন্ধান</span></a></li>
+                        <li><a href="contact"><span class="lang-en">Distributor Portal</span><span class="lang-bn">ডিস্ট্রিবিউটর পোর্টাল</span></a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>
+                        <span class="lang-en">Head Office</span>
+                        <span class="lang-bn">প্রধান কার্যালয়</span>
+                    </h4>
+                    <p style="color: var(--clr-text-muted); font-size: 0.9rem; line-height: 1.8;">
+                        <i class="fa fa-map-marker" style="color: var(--clr-accent); margin-right: 0.5rem;"></i>
+                        <span class="lang-en">16-A-B, Bismillah Tower, Jurain Bazar, Shyampur, Dhaka-1204</span>
+                        <span class="lang-bn">১৬-এ-বি, বিসমিল্লাহ টাওয়ার, জুরাইন বাজার, শ্যামপুর, ঢাকা-১২০৪</span><br>
+                        
+                        <i class="fa fa-phone" style="color: var(--clr-accent); margin-right: 0.5rem;"></i>
+                        +88 01902-994240, +88 01771-621905<br>
+                        
+                        <i class="fa fa-envelope" style="color: var(--clr-accent); margin-right: 0.5rem;"></i>
+                        arwiz.global@gmail.com
                     </p>
                 </div>
             </div>
+            
+            <div class="footer-bottom">
+                <p>
+                    <span class="lang-en">&copy; 2025 ARWIZ Global. All Rights Reserved.</span>
+                    <span class="lang-bn">&copy; ২০২৫ আরউইজ গ্লোবাল। সর্বস্বত্ব সংরক্ষিত।</span>
+                </p>
+                <div class="dev-credit">
+                    <span class="lang-en">Developed by</span><span class="lang-bn">তৈরি করেছেন</span>
+                    <a href="https://github.com/itrabbi24" target="_blank">ARG RABBI</a>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
+    </footer>
 
-   </footer>
-        
-  <!-- all js here -->
-
-  <!-- jquery latest version -->
-  <script src="./js/jquery-1.12.4.min.js"></script>
-  <script src="./js/bootstrap.min.js"></script>
-  <script src="./js/owl.carousel.min.js"></script>
-  <script src="./js/jquery.meanmenu.js"></script>
-  <script src="./js/plugins.js"></script>
-  <script src="./js/main.js"></script>
-  <script src="./js/main-slider-script.js"></script>
-  <!--Revolution Slider-->
-  <script src="./js/jquery.themepunch.revolution.min.js"></script>
-  <script src="./js/jquery.themepunch.tools.min.js"></script>
-  <script src="./js/extensions/revolution.extension.actions.min.js"></script>
-  <script src="./js/extensions/revolution.extension.carousel.min.js"></script>
-  <script src="./js/extensions/revolution.extension.kenburn.min.js"></script>
-  <script src="./js/extensions/revolution.extension.layeranimation.min.js"></script>
-  <script src="./js/extensions/revolution.extension.migration.min.js"></script>
-  <script src="./js/extensions/revolution.extension.navigation.min.js"></script>
-  <script src="./js/extensions/revolution.extension.parallax.min.js"></script>
-  <script src="./js/extensions/revolution.extension.slideanims.min.js"></script>
-  <script src="./js/extensions/revolution.extension.video.min.js"></script>
-  <script type="text/javascript">
-     $(window).scroll(function(){
-        var sticky = $('.sticky'),
-            scroll = $(window).scrollTop();
-
-        if (scroll >= 100) sticky.addClass('fixed');
-        else sticky.removeClass('fixed');
-      });
-  </script>
-
-  <script type="text/javascript">
-      $(document).ready(function(){
-        $("#testimonial-slider").owlCarousel({
-            items:1,
-            itemsDesktop:[1199,2],
-            itemsDesktopSmall:[979,2],
-            itemsTablet:[768,2],
-            itemsMobile:[600,1],
-            pagination:true,
-            navigation:false,
-            navigationText:["",""],
-            slideSpeed:1000,
-            autoPlay:true
-        });
-    });
-  </script>
-  <script>
-   $(document).ready(function(){
-       $('.counter-value').each(function(){
-           $(this).prop('Counter',0).animate({
-               Counter: $(this).text()
-           },{
-               duration: 3500,
-               easing: 'swing',
-               step: function (now){
-                   $(this).text(Math.ceil(now));
-               }
-           });
-       });
-   });
-  </script>
-  <script type="text/javascript">
-    $('.owl-event').owlCarousel({
-        loop:true,
-        margin:30,
-        autoplay:true,
-        responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:3
-            },
-            1000:{
-                items:3
-            }
-        }
-    })
-  </script>    
+    <!-- all js here -->
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/main.js"></script>
+    
+    <script>
+        // Scroll Reveal Animation
+        const observerOptions = { threshold: 0.1 };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('active');
+            });
+        }, observerOptions);
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    </script>
 </body>
 
 </html>
