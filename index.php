@@ -2,632 +2,278 @@
 include 'Layout/header.php';
 ?>
 
-
-<style>
-.pro-box img {
-  width: 100%;
-  height: 200px;        /* Set equal height */
-  object-fit: cover;    /* Crop to fit without distortion */
-}
-
-</style>
-
-
-<!--Main Slider-->
-<section class="main-slider">
-    <div class="rev_slider_wrapper fullwidthbanner-container" id="rev_slider_one_wrapper" data-source="gallery">
-        <div class="rev_slider fullwidthabanner" id="rev_slider_one" data-version="5.4.1">
-            <ul>                    
-                <!-- First Slide -->
-                <li data-transition="slidingoverlayhorizontal" data-description="Slide Description" data-index="rs-1689" data-slotamount="default" data-thumb="img/slider-2.jpg" data-title="Slide Title">
-                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="img/slider-2.jpg">
-                    
-                    <div class="tp-caption"
-                        data-paddingbottom="[0,0,0,0]"
-                        data-paddingleft="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]"
-                        data-paddingtop="[0,0,0,0]"
-                        data-responsive_offset="on"
-                        data-type="text"
-                        data-height="none"
-                        data-width="['700','650','650','450']"
-                        data-whitespace="normal"
-                        data-hoffset="['15','15','15','15']"
-                        data-voffset="['-70','-60','-60','-80']"
-                        data-x="['left','left','left','left']"
-                        data-y="['middle','middle','middle','middle']"
-                        data-textalign="['top','top','top','top']"
-                        data-frames='[{"delay":500,"speed":1500,"frame":"0","from":"x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[-100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'>
-                        <h2>The Best Export<br>Company in Town</h2>
-                    </div>
-                    
-                    <!-- <div class="tp-caption" 
-                        data-paddingbottom="[0,0,0,0]"
-                        data-paddingleft="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]"
-                        data-paddingtop="[0,0,0,0]"
-                        data-responsive_offset="on"
-                        data-type="text"
-                        data-height="none"
-                        data-width="['650','650','650','450']"
-                        data-whitespace="normal"
-                        data-hoffset="['15','15','15','15']"
-                        data-voffset="['50','40','30','10']"
-                        data-x="['left','left','left','left']"
-                        data-y="['middle','middle','middle','middle']"
-                        data-textalign="['top','top','top','top']"
-                        data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"y:[150%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'>
-                        <div class="text">One of the oldest and most reputed importers</div>
-                    </div> -->
-                    
-                    <div class="tp-caption tp-resizeme" 
-                        data-paddingbottom="[0,0,0,0]"
-                        data-paddingleft="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]"
-                        data-paddingtop="[0,0,0,0]"
-                        data-responsive_offset="on"
-                        data-type="text"
-                        data-height="none"
-                        data-whitespace="normal"
-                        data-width="['650','650','650','450']"
-                        data-hoffset="['15','15','15','15']"
-                        data-voffset="['125','110','110','90']"
-                        data-x="['left','left','left','left']"
-                        data-y="['middle','middle','middle','middle']"
-                        data-textalign="['top','top','top','top']"
-                        data-frames='[{"delay":1500,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'>
-                        <!-- Link Box -->
-                        <!-- <div class="link-box">
-                            <a href="services.php" class="theme-btn"><i class="fa fa-angle-right"></i>Learn more</a>
-                        </div> -->
-                    </div>
-                </li>
-                
-                <!-- Second Slide - Fixed with unique data-index -->
-                <li data-transition="slidingoverlayhorizontal" data-description="Slide Description" data-index="rs-1690" data-slotamount="default" data-thumb="img/slider-1.jpg" data-title="Slide Title">
-                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="img/slider-1.jpg">
-                    
-                    <div class="tp-caption"
-                        data-paddingbottom="[0,0,0,0]"
-                        data-paddingleft="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]"
-                        data-paddingtop="[0,0,0,0]"
-                        data-responsive_offset="on"
-                        data-type="text"
-                        data-height="none"
-                        data-width="['700','650','650','450']"
-                        data-whitespace="normal"
-                        data-hoffset="['15','15','15','15']"
-                        data-voffset="['-70','-60','-60','-80']"
-                        data-x="['left','left','left','left']"
-                        data-y="['middle','middle','middle','middle']"
-                        data-textalign="['top','top','top','top']"
-                        data-frames='[{"delay":500,"speed":1500,"frame":"0","from":"x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[-100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'>
-                        <h2>Nothing will work <br>unless you do</h2>
-                    </div>
-                    
-                    <!-- <div class="tp-caption" 
-                        data-paddingbottom="[0,0,0,0]"
-                        data-paddingleft="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]"
-                        data-paddingtop="[0,0,0,0]"
-                        data-responsive_offset="on"
-                        data-type="text"
-                        data-height="none"
-                        data-width="['650','650','650','450']"
-                        data-whitespace="normal"
-                        data-hoffset="['15','15','15','15']"
-                        data-voffset="['50','40','30','10']"
-                        data-x="['left','left','left','left']"
-                        data-y="['middle','middle','middle','middle']"
-                        data-textalign="['top','top','top','top']"
-                        data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"y:[150%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'>
-                        <div class="text">One of the oldest and most reputed importers</div>
-                    </div> -->
-                    
-                    <div class="tp-caption tp-resizeme" 
-                        data-paddingbottom="[0,0,0,0]"
-                        data-paddingleft="[0,0,0,0]"
-                        data-paddingright="[0,0,0,0]"
-                        data-paddingtop="[0,0,0,0]"
-                        data-responsive_offset="on"
-                        data-type="text"
-                        data-height="none"
-                        data-whitespace="normal"
-                        data-width="['650','650','650','450']"
-                        data-hoffset="['15','15','15','15']"
-                        data-voffset="['125','110','110','90']"
-                        data-x="['left','left','left','left']"
-                        data-y="['middle','middle','middle','middle']"
-                        data-textalign="['top','top','top','top']"
-                        data-frames='[{"delay":1500,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'>
-                        <!-- Link Box -->
-                        <!-- <div class="link-box">
-                            <a href="services.php" class="theme-btn"><i class="fa fa-angle-right"></i>Learn more</a>
-                        </div> -->
-                    </div>
-                </li>
-            </ul>
+<!-- Section 1: Hero (Already Premium) -->
+<section class="hero-v2">
+    <div class="hero-inner reveal">
+        <div class="hero-bg">
+            <img src="img/slider-1.jpg" alt="Premium Agricultural Retail">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content-v2">
+                <div class="glass-pill">
+                    <span class="lang-en">ELITE RETAIL HUB</span>
+                    <span class="lang-bn">এলিট রিটেইল হাব</span>
+                </div>
+                <h1>
+                    <span class="lang-en">Pure Grains.</span>
+                    <span class="lang-bn">বিশুদ্ধ শস্য।</span><br>
+                    <span class="text-grad lang-en">Exceptional Quality.</span>
+                    <span class="text-grad lang-bn">অসাধারণ মান।</span>
+                </h1>
+                <p>
+                    <span class="lang-en">At ARWIZ Global, we bring the farm's finest agricultural essentials directly to your home. Premium oils, authentic spices, and nutrient-rich grains.</span>
+                    <span class="lang-bn">আরউইজ গ্লোবালে আমরা খামারের সেরা কৃষি পণ্য সরাসরি আপনার ঘরে পৌঁছে দিই। প্রিমিয়াম তেল, খাঁটি মশলা এবং পুষ্টিকর শস্য।</span>
+                </p>
+                <div class="hero-actions" style="margin-top: 2rem;">
+                    <a href="#catalog" class="btn-v2 btn-v2-main">
+                        <span class="lang-en">Explore Catalog</span>
+                        <span class="lang-bn">সম্পূর্ণ ক্যাটালগ</span>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 </section>
-<!--SLIDER-END-->
 
-<!--SECTION-ABOUT-->
-<section class="section">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <div class="section-title">
-          <h2><span>About </span>AR WIZ GLOBAL</h2>
+<!-- Section 2: Quick Metrics (Stats) -->
+<section class="section reveal">
+    <div class="container">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 3rem;">
+            <div style="text-align: center;">
+                <span style="font-size: 3.5rem; color: var(--clr-accent); font-weight: 800; font-family: 'Outfit';">10+</span>
+                <p style="color: var(--clr-text-muted); text-transform: uppercase; font-size: 0.8rem; letter-spacing: 0.1em; font-weight: 700; margin-top: 1rem;">
+                    <span class="lang-en">Years of Trust</span>
+                    <span class="lang-bn">বিশ্বস্ততার বছর</span>
+                </p>
+            </div>
+            <div style="text-align: center;">
+                <span style="font-size: 3.5rem; color: var(--clr-accent); font-weight: 800; font-family: 'Outfit';">35+</span>
+                <p style="color: var(--clr-text-muted); text-transform: uppercase; font-size: 0.8rem; letter-spacing: 0.1em; font-weight: 700; margin-top: 1rem;">
+                    <span class="lang-en">Premium Inventory</span>
+                    <span class="lang-bn">প্রিমিয়াম ইনভেন্টরি</span>
+                </p>
+            </div>
+            <div style="text-align: center;">
+                <span style="font-size: 3.5rem; color: var(--clr-accent); font-weight: 800; font-family: 'Outfit';">5k+</span>
+                <p style="color: var(--clr-text-muted); text-transform: uppercase; font-size: 0.8rem; letter-spacing: 0.1em; font-weight: 700; margin-top: 1rem;">
+                    <span class="lang-en">Happy Families</span>
+                    <span class="lang-bn">সুখী পরিবার</span>
+                </p>
+            </div>
+            <div style="text-align: center;">
+                <span style="font-size: 3.5rem; color: var(--clr-accent); font-weight: 800; font-family: 'Outfit';">100%</span>
+                <p style="color: var(--clr-text-muted); text-transform: uppercase; font-size: 0.8rem; letter-spacing: 0.1em; font-weight: 700; margin-top: 1rem;">
+                    <span class="lang-en">Purity Guaranteed</span>
+                    <span class="lang-bn">বিশুদ্ধতা নিশ্চিত</span>
+                </p>
+            </div>
         </div>
-        <div class="abt-text">
-          <p>
-            AR WIZ GLOBAL is a leading international trading company committed to connecting markets across the world. 
-            We specialize in the import and export of high-quality products, ensuring our partners receive goods that meet global standards of excellence. 
-            Our mission is to build lasting business relationships based on trust, transparency, and reliability.
-          </p>
-
-          <div class="exper">
-              <i href="#"></i>
-              <h2>EXPORT</h2>
-              <p>
-                We export a wide range of premium products sourced from trusted suppliers across India. 
-                Our strong logistics network and presence in major ports allow us to deliver efficiently and competitively to clients worldwide. 
-                Every shipment reflects our commitment to quality and timely service.
-              </p>
-          </div>
-
-          <div class="exper">
-              <i href="#"></i>
-              <h2>IMPORT</h2>
-              <p>
-                AR WIZ GLOBAL also imports essential goods from reputed global manufacturers to meet domestic demand. 
-                With a focus on ethical business practices, consistent performance, and customer satisfaction, 
-                we’ve earned the confidence of clients and partners in multiple industries around the globe.
-              </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="abt-img">
-          <img src="img/about.jpg" alt="About AR WIZ GLOBAL">
-        </div>
-      </div>
     </div>
-  </div>
 </section>
 
-
-<!--our product-->
-<section class="section section-bg">
-  <div class="container">
-    <div class="section-title center">
-      <h2><span>Our </span>Products</h2>
-    </div>
-    <div class="row">
-
-      <div class="col-md-3 col-sm-6">
-        <div class="pro-box">
-          <img src="img/Dulal_Chandro_Vor_Plam_Candy.jpg">
-          <div class="pro-text">
-            <h2>Dulal Chandro Vor Plam Candy</h2>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3 col-sm-6">
-        <div class="pro-box">
-          <img src="img/Everest_Hingraj.jpg">
-          <div class="pro-text">
-            <h2>Everest Hingraj</h2>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3 col-sm-6">
-        <div class="pro-box">
-          <img src="img/Everest_Sambar_Masala.jpg">
-          <div class="pro-text">
-            <h2>Everest Sambar Masala</h2>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3 col-sm-6">
-        <div class="pro-box">
-          <img src="img/Everest_Kashmirilal_Masala.jpg">
-          <div class="pro-text">
-            <h2>Everest Kashmirilal Masala</h2>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3 col-sm-6">
-        <div class="pro-box">
-          <img src="img/Fortune_Soya_Chunk.jpg">
-          <div class="pro-text">
-            <h2>Fortune Soya Chunk</h2>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3 col-sm-6">
-        <div class="pro-box">
-          <img src="img/Jio_Sama_Dana.jpg">
-          <div class="pro-text">
-            <h2>Jio Sama Dana</h2>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3 col-sm-6">
-        <div class="pro-box">
-          <img src="img/karnel_1.PNG">
-          <div class="pro-text">
-            <h2>Karnel 1.PNG</h2>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3 col-sm-6">
-        <div class="pro-box">
-          <img src="img/Karnel_Oil_646_Gm.PNG">
-          <div class="pro-text">
-            <h2>Karnel Oil 646 Gm</h2>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3 col-sm-6">
-        <div class="pro-box">
-          <img src="img/Nutrela_Soya_Chunk.jpg">
-          <div class="pro-text">
-            <h2>Nutrela Soya Chunk</h2>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3 col-sm-6">
-        <div class="pro-box">
-          <img src="img/Paket_Sabu.jpg">
-          <div class="pro-text">
-            <h2>Paket Sabu</h2>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3 col-sm-6">
-        <div class="pro-box">
-          <img src="img/Premi_oil_1_Ltr.PNG">
-          <div class="pro-text">
-            <h2>Premi oil 1 Ltr</h2>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3 col-sm-6">
-        <div class="pro-box">
-          <img src="img/Premi_Oil_50_Ltr.PNG">
-          <div class="pro-text">
-            <h2>Premi Oil 50 Ltr</h2>
-          </div>
-        </div>
-      </div>
-
-      
-      <div class="col-md-3 col-sm-6">
-        <div class="pro-box">
-          <img src="img/Sabu_Dana.jpg">
-          <div class="pro-text">
-            <h2>Sabu Dana</h2>
-          </div>
-        </div>
-      </div>
-
-      
-      <div class="col-md-3 col-sm-6">
-        <div class="pro-box">
-          <img src="img/Sama_Dana.jpg">
-          <div class="pro-text">
-            <h2>Sama Dana</h2>
-          </div>
-        </div>
-      </div>
-
-      
-      <div class="col-md-3 col-sm-6">
-        <div class="pro-box">
-          <img src="img/tea.PNG">
-          <div class="pro-text">
-            <h2>Tea</h2>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-<!--our product end-->
-
-<!--why us-->
-<section>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-6">
-        <div class="why-us">
-            <div class="section-title">
-              <h2><span>Why </span>Choose Us</h2>
+<!-- Section 3: About Bento Narrative -->
+<section id="about" class="section reveal">
+    <div class="container">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 5rem; align-items: center;">
+            <div class="bento-item" style="padding: 0; overflow: hidden; border-radius: var(--br-hero); height: 500px;">
+                <img src="img/about.jpg" alt="Our Quality" style="width: 100%; height: 100%; object-fit: cover;">
             </div>
-            <p>
-              At <strong>A.R WIZ GLOBAL</strong>, we are committed to building strong global trade relationships 
-              through reliability, quality, and trust. As an experienced importer and exporter, 
-              we ensure every product meets international standards while maintaining transparent and ethical business practices. 
-              Our dedication to customer satisfaction and timely delivery has made us a trusted name in the trading industry.
-            </p>
-            <div class="our-pont">
-
-              <div class="point-why">
-                <img src="img/pnt-1.png" alt="Best Services">
-                <div class="pont-desc">
-                  <h3>Best Services</h3>
-                  <p>
-                    We provide seamless import and export services worldwide, ensuring quality, 
-                    efficiency, and professionalism in every transaction.
-                  </p>
+            <div>
+                <div class="glass-pill">
+                    <span class="lang-en">BEYOND TRADING</span>
+                    <span class="lang-bn">ট্রেডিংয়ের বাইরে</span>
                 </div>
-              </div>
-
-              <div class="point-why">
-                <img src="img/pnt-2.png" alt="Reputation">
-                <div class="pont-desc">
-                  <h3>Trusted Reputation</h3>
-                  <p>
-                    Our long-standing relationships with suppliers and clients reflect 
-                    our honesty, consistency, and commitment to delivering excellence every time.
-                  </p>
-                </div>
-              </div>
-
-              <div class="point-why">
-                <img src="img/pnt-3.png" alt="Safety & Security">
-                <div class="pont-desc">
-                  <h3>Safety & Reliability</h3>
-                  <p>
-                    We prioritize safe handling, packaging, and transportation of goods, 
-                    ensuring every shipment reaches its destination securely and on time.
-                  </p>
-                </div>
-              </div>
-
-            </div>
-        </div>
-      </div>
-
-      <div class="col-md-6 bg-testi">
-           <div id="testimonial-slider" class="owl-carousel">
-
-                <div class="testimonial">
-                    <div class="pic">
-                        <img src="img/profile-1.jpg" alt="">
-                    </div>
-                    <p class="description">
-                        We’ve partnered with A.R WIZ GLOBAL for multiple shipments — always on time and handled with professionalism. 
-                        Their reliability makes them our go-to trading partner.
-                    </p>
-                    <h3 class="testimonial-title">Rahman Trading Co. – Client</h3>
-                </div>
-
-                <div class="testimonial">
-                    <div class="pic">
-                        <img src="img/profile-2.jpg" alt="">
-                    </div>
-                    <p class="description">
-                        Excellent service and strong communication throughout the process. 
-                        A.R WIZ GLOBAL truly understands international trade and customer needs.
-                    </p>
-                    <h3 class="testimonial-title">Global Exports Ltd. – Partner</h3>
-                </div>
-
-                <div class="testimonial">
-                    <div class="pic">
-                        <img src="img/profile-1.jpg" alt="">
-                    </div>
-                    <p class="description">
-                        Working with them has been smooth and professional from start to finish. 
-                        Their dedication to quality and customer care is impressive.
-                    </p>
-                    <h3 class="testimonial-title">Eastern Foods – Distributor</h3>
-                </div>
-
-            </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!--why us end-->
-
-<!--event area-->
-<!-- <section class="section section-bg">
-  <div class="container">
-    <div class="section-title center">
-      <h2><span>Recent</span>Events</h2>
-    </div>
-    <div class="row">
-      <div class="owl-carousel owl-theme owl-event">
-        <div class="item">
-        <div class="news-blog">
-          <img src="img/blog-1.jpg">
-          <div class="news-desc">
-            <h3>Recent Event Detail</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
-        </div>
-      </div>
-      <div class="item">
-        <div class="news-blog">
-          <img src="img/blog-2.jpg">
-          <div class="news-desc">
-            <h3>Recent Event Detail</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
-        </div>
-      </div>
-      <div class="item">
-        <div class="news-blog">
-          <img src="img/blog-3.jpg">
-          <div class="news-desc">
-            <h3>Recent Event Detail</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
-</section> -->
-<!--event area end-->
-<section class="section section-counter">
-  <div class="container">
-    <div class="row">
-      <div class="row">
-          <div class="col-md-3 col-xs-6">
-            <div class="counter">
-               <i class="fa fa-briefcase" aria-hidden="true"></i>
-                <div class="counter-content">
-                    <span class="counter-value">5</span>
-                      <h3>Years of Experience</h3>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3 col-xs-6 border-lft-rt">
-            <div class="counter">
-                <i class="fa fa-flag" aria-hidden="true"></i>
-                <div class="counter-content">
-                    <span class="counter-value">5</span>
-                     <h3>Countries</h3>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3 col-xs-6 border-rt">
-            <div class="counter">
-                <i class="fa fa-user" aria-hidden="true"></i>
-                <div class="counter-content">
-                    <span class="counter-value">25</span>
-                    <h3>Commodities</h3>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3 col-xs-6">
-            <div class="counter">
-                <i class="fa fa-trophy" aria-hidden="true"></i>
-                <div class="counter-content">
-                    <span class="counter-value">1</span>
-                    <h3>Awards</h3>
-                </div>
-            </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- FAQ & Brand Section -->
-<section class="section section-bg">
-  <div class="container">
-    <div class="row">
-      <!-- FAQ -->
-      <div class="col-md-6">
-        <div class="faq-div">
-            <div class="section-title">
-              <h2><span>F . A .</span> Question</h2>
-            </div>
-            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                
-                <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="headingOne">
-                        <h4 class="panel-title">
-                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                               Are you an importer or exporter?
-                            </a>
-                        </h4>
-                    </div>
-                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-                        <div class="panel-body">
-                            <p>
-                              A.R WIZ GLOBAL operates as both an importer and exporter, 
-                              dealing in a wide range of commodities including edible oils, food products, and household essentials. 
-                              We ensure global quality standards and seamless trade operations for every shipment.
+                <h2 style="font-size: 3rem; margin-bottom: 2rem;">
+                    <span class="lang-en">Authentic <span class="text-grad">Heritage.</span></span>
+                    <span class="lang-bn">খাঁটি <span class="text-grad">ঐতিহ্য।</span></span>
+                </h2>
+                <p style="color: var(--clr-text-muted); font-size: 1.1rem; margin-bottom: 2rem;">
+                    <span class="lang-en">ARWIZ Global is a leading retailer in Bangladesh, specialized in high-end agricultural staples. We bridge the gap between quality grain producers and your daily nutritional needs.</span>
+                    <span class="lang-bn">আরউইজ গ্লোবাল বাংলাদেশের একটি শীর্ষস্থানীয় রিটেইলার, যারা হাই-এন্ড কৃষি পণ্যে বিশেষজ্ঞ। আমরা মানসম্মত শস্য উৎপাদনকারী এবং আপনার দৈনন্দিন পুষ্টির চাহিদার মধ্যে ব্যবধান পূরণ করি।</span>
+                </p>
+                <div style="display: grid; grid-gap: 1.5rem;">
+                    <div style="display: flex; gap: 1rem;">
+                        <i class="fa fa-check-circle" style="color: var(--clr-accent); font-size: 1.5rem;"></i>
+                        <div>
+                            <h4 style="margin-bottom: 0.5rem;">
+                                <span class="lang-en">Direct Sourcing</span>
+                                <span class="lang-bn">সরাসরি সোর্সিং</span>
+                            </h4>
+                            <p style="color: var(--clr-text-muted); font-size: 0.9rem;">
+                                <span class="lang-en">Partnerships with premium Indian heartland growers.</span>
+                                <span class="lang-bn">ভারতীয় হার্টল্যান্ড উৎপাদকদের সাথে প্রিমিয়াম পার্টনারশিপ।</span>
                             </p>
                         </div>
                     </div>
                 </div>
-
-                <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="headingTwo">
-                        <h4 class="panel-title">
-                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                              Which countries do you trade with?
-                            </a>
-                        </h4>
-                    </div>
-                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                        <div class="panel-body">
-                            <p>
-                              We have established trade relationships across Asia, the Middle East, and Africa. 
-                              Our export network continues to grow as we bring trusted brands and high-quality products 
-                              from Bangladesh and other markets to global customers.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="headingThree">
-                        <h4 class="panel-title">
-                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                What products do you specialize in?
-                            </a>
-                        </h4>
-                    </div>
-                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                        <div class="panel-body">
-                            <p>
-                              We specialize in edible oils, pulses, spices, grains, and household items. 
-                              Our portfolio also includes branded consumer goods sourced and distributed 
-                              under strict quality supervision to ensure customer satisfaction worldwide.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
-      </div>
+    </div>
+</section>
 
-      <!-- Our Brand -->
-      <div class="col-md-6">
-         <div class="section-title">
-            <h2><span>Our </span>Brand</h2>
-          </div>
-          <div class="our-brand">
-            <div class="col-md-9 no-padding">
-              <img src="img/product.png" alt="AR WIZ GLOBAL Brand">
+<!-- Section 4: Product Hub (Catalog) -->
+<section id="catalog" class="section">
+    <div class="container">
+        <div style="text-align: center; margin-bottom: 5rem;" class="reveal">
+            <div class="glass-pill">
+                <span class="lang-en">ESTABLISHED 2015</span>
+                <span class="lang-bn">প্রতিষ্ঠিত ২০১৫</span>
             </div>
-            <div class="col-md-3 beand-bg no-padding">
-              <div class="brand-text">
-                <h3>
-                  “Our brand stands for trust, consistency, and quality — delivering the best imported and exported goods across global markets.”
+            <h2 style="font-size: 3.5rem;">
+                <span class="lang-en">The Retail <span class="text-grad">Range.</span></span>
+                <span class="lang-bn">রিটেইল <span class="text-grad">রেঞ্জ।</span></span>
+            </h2>
+        </div>
+
+        <div class="catalog-grid">
+            <div class="product-item reveal">
+                <div class="product-img-box"><img src="img/sunflower_oil_premium.png" alt="Sunflower Oil"></div>
+                <span class="product-unit">CTN / 5L</span>
+                <div class="product-info-box">
+                    <h4>
+                        <span class="lang-en">Karnel Sunflower Oil</span>
+                        <span class="lang-bn">কর্ণেল সানফ্লাওয়ার অয়েল</span>
+                    </h4>
+                </div>
+            </div>
+            <div class="product-item reveal">
+                <div class="product-img-box"><img src="img/spices_masala_premium.png" alt="Everest Masala"></div>
+                <span class="product-unit">PES / 100G</span>
+                <div class="product-info-box">
+                    <h4>
+                        <span class="lang-en">Everest Biriyani Masala</span>
+                        <span class="lang-bn">এভারেস্ট বিরিয়ানি মশলা</span>
+                    </h4>
+                </div>
+            </div>
+            <div class="product-item reveal">
+                <div class="product-img-box"><img src="img/Nutrela_Soya_Chunk.jpg" alt="Soya Chunk"></div>
+                <span class="product-unit">BAG / 1KG</span>
+                <div class="product-info-box">
+                    <h4>
+                        <span class="lang-en">Nutella Soya Chunk</span>
+                        <span class="lang-bn">নিউটেলা সয়া চাঙ্ক</span>
+                    </h4>
+                </div>
+            </div>
+            <div class="product-item reveal">
+                <div class="product-img-box"><img src="img/Sabu_Dana.jpg" alt="Sabu Dana"></div>
+                <span class="product-unit">BAG / 30KG</span>
+                <div class="product-info-box">
+                    <h4>
+                        <span class="lang-en">Sabu Dana (Premium)</span>
+                        <span class="lang-bn">সাবু দানা (প্রিমিয়াম)</span>
+                    </h4>
+                </div>
+            </div>
+        </div>
+        
+        <div style="text-align: center; margin-top: 5rem;" class="reveal">
+            <a href="contact" class="btn-v2 btn-v2-main">
+                <span class="lang-en">View Full 35+ Catalog</span>
+                <span class="lang-bn">পুরো পণ্য তালিকা</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Section 5: The Arwiz Promise (Values) -->
+<section class="section reveal" style="background: var(--clr-surface); border-radius: var(--br-hero);">
+    <div class="container">
+        <div style="text-align: center; margin-bottom: 5rem;">
+            <h2 style="font-size: 3rem;">
+                <span class="lang-en">The Consumer <span class="text-grad">Promise.</span></span>
+                <span class="lang-bn">ভোক্তাদের প্রতি <span class="text-grad">প্রতিশ্রুতি।</span></span>
+            </h2>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2.5rem;">
+            <div class="bento-item">
+                <h3 style="margin-bottom: 1.5rem;">
+                    <span class="lang-en">Absolute Purity</span>
+                    <span class="lang-bn">পূর্ণ বিশুদ্ধতা</span>
                 </h3>
-              </div>
+                <p style="color: var(--clr-text-muted);">
+                    <span class="lang-en">Every batch is tested for zero adulteration. We only sell what we would feed our own families.</span>
+                    <span class="lang-bn">প্রতিটি ব্যাচ শূন্য ভেজালের জন্য পরীক্ষা করা হয়। আমরা কেবল তাই বিক্রি করি যা আমরা আমাদের নিজেদের পরিবারকে খাওয়াব।</span>
+                </p>
             </div>
-          </div>
-      </div>
- </div>
-  </div>
+            <div class="bento-item">
+                <h3 style="margin-bottom: 1.5rem;">
+                    <span class="lang-en">Ethical Sourcing</span>
+                    <span class="lang-bn">নৈতিক সোর্সিং</span>
+                </h3>
+                <p style="color: var(--clr-text-muted);">
+                    <span class="lang-en">Fair trade practices with our heartland growers to ensure sustainability at every step.</span>
+                    <span class="lang-bn">আমাদের উৎপাদকদের সাথে ফেয়ার ট্রেড পদ্ধতি অনুসরণ করি যাতে প্রতিটি ধাপে স্থায়িত্ব নিশ্চিত হয়।</span>
+                </p>
+            </div>
+        </div>
+    </div>
 </section>
 
+<!-- Section 6: Supply Chain (Process) -->
+<section class="section reveal">
+    <div class="container">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 6rem; align-items: center; flex-direction: row-reverse;">
+            <div class="bento-item" style="padding: 0; overflow: hidden; border-radius: var(--br-hero); order: 2; height: 500px;">
+                <img src="img/slider-2.jpg" alt="Supply Chain" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div style="order: 1;">
+                <div class="glass-pill">
+                    <span class="lang-en">SUPPLY CHAIN</span>
+                    <span class="lang-bn">সাপ্লাই চেইন</span>
+                </div>
+                <h2 style="font-size: 3rem; margin-bottom: 2rem;">
+                    <span class="lang-en">From Farm <span class="text-grad">To Table.</span></span>
+                    <span class="lang-bn">খামার থেকে <span class="text-grad">খাদ্য টেবিলে।</span></span>
+                </h2>
+                <div style="display: flex; flex-direction: column; gap: 2rem;">
+                    <div style="display: flex; gap: 1.5rem;">
+                        <span style="font-size: 2rem; color: var(--clr-accent); font-weight: 900; opacity: 0.3;">01</span>
+                        <div>
+                            <h4 style="margin-bottom: 0.5rem;"><span class="lang-en">Quality Harvest</span><span class="lang-bn">মানসম্মত ফসল</span></h4>
+                            <p style="color: var(--clr-text-muted);">
+                                <span class="lang-en">Selecting the finest grains from Indian heartland hubs.</span>
+                                <span class="lang-bn">আঞ্চলিক হাব থেকে সেরা শস্য নির্বাচন।</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div style="display: flex; gap: 1.5rem;">
+                        <span style="font-size: 2rem; color: var(--clr-accent); font-weight: 900; opacity: 0.3;">02</span>
+                        <div>
+                            <h4 style="margin-bottom: 0.5rem;"><span class="lang-en">Safe Storage</span><span class="lang-bn">নিরাপদ স্টোরেজ</span></h4>
+                            <p style="color: var(--clr-text-muted);">
+                                <span class="lang-en">Modern warehousing ensuring temperature-controlled freshness.</span>
+                                <span class="lang-bn">তাজা ভাব বজায় রাখতে আধুনিক ওয়্যারহাউজিং।</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section 7: Wholesale Partnerships -->
+<section class="section reveal">
+    <div class="container">
+        <div class="bento-item" style="text-align: center; background: var(--grad-primary); color: #000; padding: 5rem;">
+            <h2 style="font-size: 2.5rem; margin-bottom: 2rem;">
+                <span class="lang-en">Wholesale & Bulk Supply Solutions</span>
+                <span class="lang-bn">পাইকারি ও বাল্ক সরবরাহ সমাধান</span>
+            </h2>
+            <p style="font-size: 1.1rem; font-weight: 500; max-width: 800px; margin: 0 auto 3rem;">
+                <span class="lang-en">Join our robust network of retail partners and distributors across Bangladesh. Guaranteed supply for your business growth.</span>
+                <span class="lang-bn">সারা বাংলাদেশে আমাদের রিটেইল পার্টনার ও ডিস্ট্রিবিউটরদের শক্তিশালী নেটওয়ার্কে যোগ দিন। আপনার ব্যবসার বৃদ্ধির জন্য নিশ্চিত সরবরাহ।</span>
+            </p>
+            <a href="contact" class="btn-v2 btn-v2-outline" style="border-color: #000; color: #000;">
+                <span class="lang-en">Partner With Us</span>
+                <span class="lang-bn">আমাদের সাথে যুক্ত হোন</span>
+            </a>
+        </div>
+    </div>
+</section>
 
 <?php
 include 'Layout/footer.php';
